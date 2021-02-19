@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    >
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical"
+      >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+      <EditText
+          android:id="@+id/from"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:hint="from"
+          android:inputType="textCapCharacters"
+          />
+
+      <EditText
+          android:id="@+id/fromQuantity"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:hint="quantity"
+          android:inputType="numberDecimal"
+          />
+
+      <EditText
+          android:id="@+id/fromValue"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:hint="value $$"
+          android:inputType="numberDecimal"
+          />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+      <EditText
+          android:id="@+id/to"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:hint="to"
+          android:inputType="textCapCharacters"
+          />
+
+      <EditText
+          android:id="@+id/toQuantity"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:hint="quantity"
+          android:inputType="numberDecimal"
+          />
+
+      <EditText
+          android:id="@+id/toValue"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:hint="value $$"
+          android:inputType="numberDecimal"
+          />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+      <EditText
+          android:id="@+id/fee"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:hint="fee"
+          android:inputType="numberDecimal"
+          />
+
+      <Button
+          android:id="@+id/add"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:text="add"
+          />
+
+      <Button
+          android:id="@+id/calculate"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:text="calculate"
+          />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/gainz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="gainz/losses: "
+        />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="result"
+        />
+  </LinearLayout>
+
+
+</ScrollView>
