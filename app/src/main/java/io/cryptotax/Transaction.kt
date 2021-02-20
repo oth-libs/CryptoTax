@@ -20,5 +20,7 @@ enum class TransactionType {
     BUY,
     SELL,
     TRADE,
-    TRANSFER
+    BUY_FROM_DEPOSIT,
+    TRANSFER,
+    DEPOSIT
 }
